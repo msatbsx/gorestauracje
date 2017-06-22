@@ -1,0 +1,109 @@
+PODS:
+  - BRYXBanner (0.7.1)
+  - FCUUID (1.2.0):
+    - UICKeyChainStore (~> 2.1.0)
+  - Firebase/Core (3.7.0):
+    - FirebaseAnalytics (= 3.4.3)
+    - FirebaseCore (= 3.4.3)
+  - Firebase/Messaging (3.7.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 1.2.0)
+  - FirebaseAnalytics (3.4.3):
+    - FirebaseCore (~> 3.4)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleUtilities (~> 1.3)
+  - FirebaseCore (3.4.3):
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleUtilities (~> 1.2)
+  - FirebaseInstanceID (1.0.8)
+  - FirebaseMessaging (1.2.0):
+    - FirebaseAnalytics (~> 3.3)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleIPhoneUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleIPhoneUtilities (1.2.1):
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.0)
+  - GoogleMaps (2.0.1):
+    - GoogleMaps/Maps (= 2.0.1)
+  - GoogleMaps/Base (2.0.1)
+  - GoogleMaps/Maps (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleUtilities (1.3.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - Kingfisher (3.1.1)
+  - PKHUD (3.2.1)
+  - Realm (2.0.2):
+    - Realm/Headers (= 2.0.2)
+  - Realm/Headers (2.0.2)
+  - RealmSwift (2.0.2):
+    - Realm (= 2.0.2)
+  - SwiftyJSON (3.0.0)
+  - UICKeyChainStore (2.1.0)
+
+DEPENDENCIES:
+  - BRYXBanner (~> 0.7.1)
+  - FCUUID (~> 1.2.0)
+  - Firebase/Core
+  - Firebase/Messaging
+  - GoogleMaps (~> 2.0.1)
+  - Kingfisher (~> 3.0)
+  - PKHUD (from `https://github.com/toyship/PKHUD.git`)
+  - Realm (from `https://github.com/realm/realm-cocoa.git`, branch `master`)
+  - RealmSwift (from `https://github.com/realm/realm-cocoa.git`, branch `master`)
+  - SwiftyJSON (= 3.0.0)
+
+EXTERNAL SOURCES:
+  PKHUD:
+    :git: https://github.com/toyship/PKHUD.git
+  Realm:
+    :branch: master
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+  RealmSwift:
+    :branch: master
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  PKHUD:
+    :commit: 28fb970b41d63134e962f9da766b96670c0f55f0
+    :git: https://github.com/toyship/PKHUD.git
+  Realm:
+    :commit: be0555b550093bb65629055861ac2a0d9ab00e4f
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+  RealmSwift:
+    :commit: be0555b550093bb65629055861ac2a0d9ab00e4f
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+
+SPEC CHECKSUMS:
+  BRYXBanner: 34eabf9c6c009f187948ca78a4f3bba3767d0f04
+  FCUUID: 9bfe031d35b7c221a7c66156a0af45d4eb49c3b6
+  Firebase: 3875e140d77c7572c6d4852faf94144ffcdb0704
+  FirebaseAnalytics: 02d0aed8c6246a9c8683ac3e9825c67ceb657bde
+  FirebaseCore: 5a885548bbc5f0c410b04f8e9ac9d73ff1221907
+  FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
+  FirebaseMessaging: 789d23fd796594dfb55dcf36cd325541df887c22
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleIPhoneUtilities: 63f25e93a3ddcb66884d182aab3a660d98f1479b
+  GoogleMaps: f09da64fc987c1aa29394567c3cab5a3df83c402
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
+  Kingfisher: 12b755ae697cc9f0fd3e550db8417fa1233e09ab
+  PKHUD: 001c11518f125a273ddf026bcc64918423744ea2
+  Realm: 0f5a194af0b7e6158b83db41b4ee1a00be7ddf1a
+  RealmSwift: 0eb5070d851cba7c66e841ca756d83609dc78bc8
+  SwiftyJSON: f57b2b44bc166617372d1c70773591fe9f0f5fd4
+  UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
+
+PODFILE CHECKSUM: 5319f00beb1ef509de40d7a0233b458c58391d7f
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DidactGothic.ttf">
+            <string>DidactGothic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MessageTableViewCell" rowHeight="73" id="Oqa-gc-gsG" customClass="MessageTableViewCell" customModule="GoOut_Restauracje" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="458" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Oqa-gc-gsG" id="Tf0-RM-Oqm">
+                <rect key="frame" x="0.0" y="0.0" width="458" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blenda2ciemny" translatesAutoresizingMaskIntoConstraints="NO" id="OSt-rV-owV">
+                        <rect key="frame" x="0.0" y="54" width="458" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="6uH-Zy-RyR"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="438" translatesAutoresizingMaskIntoConstraints="NO" id="9Ni-bc-07h" userLabel="MessageTittle">
+                        <rect key="frame" x="10" y="5" width="438" height="59"/>
+                        <fontDescription key="fontDescription" name="DidactGothic" family="Didact Gothic" pointSize="20"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWz-Ab-s1l">
+                        <rect key="frame" x="248" y="45" width="200" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="wlS-da-yXC"/>
+                            <constraint firstAttribute="height" constant="21" id="yqK-E6-MRl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="DidactGothic" family="Didact Gothic" pointSize="13"/>
+                        <color key="textColor" red="0.4823529411764706" green="0.52156862745098043" blue="0.5490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="9Ni-bc-07h" secondAttribute="trailing" constant="10" id="GLb-9m-xdQ"/>
+                    <constraint firstItem="9Ni-bc-07h" firstAttribute="top" secondItem="Tf0-RM-Oqm" secondAttribute="top" constant="5" id="Mld-CT-ITk"/>
+                    <constraint firstItem="KWz-Ab-s1l" firstAttribute="bottom" secondItem="Tf0-RM-Oqm" secondAttribute="bottomMargin" id="YJC-hA-xXk"/>
+                    <constraint firstAttribute="bottom" secondItem="9Ni-bc-07h" secondAttribute="bottom" constant="10" id="gcc-33-dXM"/>
+                    <constraint firstItem="9Ni-bc-07h" firstAttribute="leading" secondItem="Tf0-RM-Oqm" secondAttribute="leading" constant="10" id="hhP-8F-qPb"/>
+                    <constraint firstItem="OSt-rV-owV" firstAttribute="leading" secondItem="Tf0-RM-Oqm" secondAttribute="leading" id="lBW-lk-hcT"/>
+                    <constraint firstAttribute="bottom" secondItem="OSt-rV-owV" secondAttribute="bottom" id="lPB-wp-42w"/>
+                    <constraint firstAttribute="trailing" secondItem="OSt-rV-owV" secondAttribute="trailing" id="lr5-47-2tU"/>
+                    <constraint firstItem="9Ni-bc-07h" firstAttribute="top" secondItem="Tf0-RM-Oqm" secondAttribute="top" constant="5" id="poD-4t-vKS"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="KWz-Ab-s1l" secondAttribute="trailing" constant="2" id="sle-QM-fCX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="messageTittleLable" destination="9Ni-bc-07h" id="JIN-cS-NjH"/>
+                <outlet property="timeRecivedLabel" destination="KWz-Ab-s1l" id="55u-yB-j5H"/>
+            </connections>
+            <point key="canvasLocation" x="300" y="141.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="blenda2ciemny" width="414" height="27"/>
+    </resources>
+</document>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DidactGothic.ttf">
+            <string>DidactGothic</string>
+        </array>
+        <array key="PTS75F.ttf">
+            <string>PTSans-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="KuponHistoryTableViewCell" rowHeight="73" id="JQN-or-xwN" customClass="KuponHistoryTableViewCell" customModule="GoOut_Restauracje" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="458" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JQN-or-xwN" id="GM2-yg-XMa">
+                <frame key="frameInset" width="458" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RD8-7D-h8W">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="8kb-yF-Z6r"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="20"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45E-Kx-RSi">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="bbE-QC-zLC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="DidactGothic" family="Didact Gothic" pointSize="17"/>
+                        <color key="textColor" red="0.4823529412" green="0.52156862749999999" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DSU-0B-cNK">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Txx-wh-mih">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="53" id="hZR-J9-l84"/>
+                                    <constraint firstAttribute="height" constant="50" id="pvC-lQ-Qic"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PTSans-Bold" family="PT Sans" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.16862745100000001" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="hZR-J9-l84"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kupony" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vg2-y7-T1D">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="7Hr-3l-hoW"/>
+                                    <constraint firstAttribute="width" constant="70" id="Kl0-5F-Mbg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DidactGothic" family="Didact Gothic" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.16862745100000001" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Kl0-5F-Mbg"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83137254900000002" green="0.72549019609999998" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Vg2-y7-T1D" firstAttribute="top" secondItem="DSU-0B-cNK" secondAttribute="top" constant="8" id="3op-8w-5Yv"/>
+                            <constraint firstAttribute="bottom" secondItem="Txx-wh-mih" secondAttribute="bottom" constant="5" id="DNk-bX-B3e"/>
+                            <constraint firstItem="Txx-wh-mih" firstAttribute="centerY" secondItem="DSU-0B-cNK" secondAttribute="centerY" id="KCN-0k-XrE"/>
+                            <constraint firstItem="Vg2-y7-T1D" firstAttribute="leading" secondItem="DSU-0B-cNK" secondAttribute="leading" constant="10" id="NMZ-ls-SoA"/>
+                            <constraint firstItem="Txx-wh-mih" firstAttribute="leading" secondItem="DSU-0B-cNK" secondAttribute="leading" constant="10" id="Zgv-me-zn9"/>
+                            <constraint firstAttribute="trailing" secondItem="Vg2-y7-T1D" secondAttribute="trailing" constant="10" id="bG4-aj-RaV"/>
+                            <constraint firstItem="Txx-wh-mih" firstAttribute="centerX" secondItem="DSU-0B-cNK" secondAttribute="centerX" id="gsX-Mu-xMu"/>
+                            <constraint firstAttribute="width" constant="123" id="maS-1r-H7d"/>
+                            <constraint firstAttribute="trailing" secondItem="Txx-wh-mih" secondAttribute="trailing" constant="10" id="rzg-MJ-m2b"/>
+                            <constraint firstItem="Vg2-y7-T1D" firstAttribute="centerX" secondItem="DSU-0B-cNK" secondAttribute="centerX" id="vAD-o1-Zvf"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KCN-0k-XrE"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rI4-x7-Ra8">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="m0I-vP-ea4"/>
+                            <constraint firstAttribute="height" constant="21" id="wNA-OZ-n5B"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="DidactGothic" family="Didact Gothic" pointSize="15"/>
+                        <color key="textColor" red="0.4823529412" green="0.52156862749999999" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="m0I-vP-ea4"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blenda2ciemny" translatesAutoresizingMaskIntoConstraints="NO" id="DTF-M7-h5T">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="wR5-VW-2Fs"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="DSU-0B-cNK" secondAttribute="trailing" id="0KG-fR-0UC"/>
+                    <constraint firstItem="DSU-0B-cNK" firstAttribute="leading" secondItem="rI4-x7-Ra8" secondAttribute="trailing" constant="8" id="5Xg-68-Gyk"/>
+                    <constraint firstAttribute="trailing" secondItem="DTF-M7-h5T" secondAttribute="trailing" id="8LE-J8-Meu"/>
+                    <constraint firstItem="DSU-0B-cNK" firstAttribute="leading" secondItem="RD8-7D-h8W" secondAttribute="trailing" constant="25" id="BwT-Mg-4sy"/>
+                    <constraint firstItem="rI4-x7-Ra8" firstAttribute="leading" secondItem="GM2-yg-XMa" secondAttribute="leading" constant="10" id="DAk-29-zio"/>
+                    <constraint firstAttribute="bottom" secondItem="rI4-x7-Ra8" secondAttribute="bottom" constant="8" id="G6q-i6-VH9"/>
+                    <constraint firstAttribute="bottom" secondItem="DSU-0B-cNK" secondAttribute="bottom" id="JTA-ll-uMi"/>
+                    <constraint firstItem="RD8-7D-h8W" firstAttribute="top" secondItem="GM2-yg-XMa" secondAttribute="top" constant="5" id="L6e-5n-qbG"/>
+                    <constraint firstItem="DSU-0B-cNK" firstAttribute="leading" secondItem="DTF-M7-h5T" secondAttribute="trailing" id="NQ1-py-t4X"/>
+                    <constraint firstItem="DTF-M7-h5T" firstAttribute="leading" secondItem="GM2-yg-XMa" secondAttribute="leading" id="Qa5-Lv-BNd"/>
+                    <constraint firstItem="DSU-0B-cNK" firstAttribute="leading" secondItem="45E-Kx-RSi" secondAttribute="trailing" constant="25" id="Upu-qa-hFz"/>
+                    <constraint firstItem="DSU-0B-cNK" firstAttribute="top" secondItem="GM2-yg-XMa" secondAttribute="top" id="VOW-Ob-xPg"/>
+                    <constraint firstItem="RD8-7D-h8W" firstAttribute="leading" secondItem="GM2-yg-XMa" secondAttribute="leading" constant="10" id="hFQ-HZ-9y7"/>
+                    <constraint firstItem="45E-Kx-RSi" firstAttribute="leading" secondItem="GM2-yg-XMa" secondAttribute="leading" constant="10" id="jHH-1O-bx6"/>
+                    <constraint firstAttribute="bottom" secondItem="DTF-M7-h5T" secondAttribute="bottom" id="ubS-U7-0vV"/>
+                    <constraint firstItem="45E-Kx-RSi" firstAttribute="top" secondItem="RD8-7D-h8W" secondAttribute="bottom" constant="1" id="yMF-ez-Bcy"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="NQ1-py-t4X"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="addressLabel" destination="45E-Kx-RSi" id="NEm-8b-dHI"/>
+                <outlet property="boughtKuponCountLabel" destination="Txx-wh-mih" id="fSG-eP-wN8"/>
+                <outlet property="dateLabel" destination="rI4-x7-Ra8" id="zzx-BU-A6d"/>
+                <outlet property="restaurantName" destination="RD8-7D-h8W" id="zGw-jL-Gst"/>
+            </connections>
+            <point key="canvasLocation" x="300" y="141.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="blenda2ciemny" width="466" height="31"/>
+    </resources>
+</document>
